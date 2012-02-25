@@ -25,7 +25,7 @@
     function goToView(dest) { 
       var supported_views = gadgets.views.getSupportedViews(); 
       gadgets.views.requestNavigateTo(supported_views[dest]); 
-      gadgets.views.adjustHeight(100); 
+      gadgets.views.adjustHeight(600); 
           }; 
   </script> 
   <a href="javascript:goToView('home')" >Go to Sidebar view</a><br><br> 
