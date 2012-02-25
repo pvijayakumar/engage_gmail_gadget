@@ -7,8 +7,7 @@
         <Optional feature="maximize"/> 
   </ModulePrefs> 
   <Content type="html" view="home"> 
-  <![CDATA[ 
-  <div>Hello world Home</div> 
+  <![CDATA[  
   <script type="text/javascript"> 
     function goToView(dest) { 
       var supported_views = gadgets.views.getSupportedViews(); 
