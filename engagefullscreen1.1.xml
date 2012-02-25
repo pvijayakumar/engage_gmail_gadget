@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<Module> 
+  <ModulePrefs title="Full Screen" description="Eloqua Engage" author="Pras" height="100"> 
+          <Require feature="views"/> 
+          <Require feature="dynamic-height"/> 
+        <Require feature="settitle"/> 
+        <Optional feature="maximize"/> 
+  </ModulePrefs> 
+  <Content type="html" view="home"> 
+  <![CDATA[ 
+  <div>Hello world Home</div> 
+  <script type="text/javascript"> 
+    function goToView(dest) { 
+      var supported_views = gadgets.views.getSupportedViews(); 
+      gadgets.views.requestNavigateTo(supported_views[dest]); 
+      gadgets.views.adjustHeight(500); 
+            }; 
+  </script> 
+  <a href="javascript:goToView('canvas')" >Go to full screen view</a><br><br> 
+      ]]> 
+  </Content> 
+  <Content view="canvas,profile,default" type="url" href="https://secure.eloqua.com/apps/engage/index.aspx"> 
+  <![CDATA[ 
+  <iframe id="engage_frame" name="engage_frame" src="https://secure.eloqua.com/apps/engage/index.aspx" height="300" width="100%" border="0" frameBorder="0" scrolling="auto" style="margin: 0; padding:0; border: 0;"></iframe>
+    <script type="text/javascript"> 
+    function goToView(dest) { 
+      var supported_views = gadgets.views.getSupportedViews(); 
+      gadgets.views.requestNavigateTo(supported_views[dest]); 
+      gadgets.views.adjustHeight(100); 
+          }; 
+  </script> 
+  <a href="javascript:goToView('home')" >Go to Sidebar view</a><br><br> 
+  ]]> 
+  </Content> 
+  </Module>
