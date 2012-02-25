@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
 <Module> 
-  <ModulePrefs title="Full Screen" description="Eloqua Engage" author="Pras" height="100"> 
+  <ModulePrefs title="Eloqua Engage" description="Eloqua Engage" author="Pras" height="100"> 
           <Require feature="views"/> 
           <Require feature="dynamic-height"/> 
         <Require feature="settitle"/> 
@@ -16,7 +16,7 @@
       gadgets.views.adjustHeight(500); 
             }; 
   </script> 
-  <a href="javascript:goToView('canvas')" >Go to full screen view</a><br><br> 
+  <a href="javascript:goToView('canvas')" >Launch Engage in full screen</a><br><br> 
       ]]> 
   </Content> 
   <Content view="canvas,profile,default" type="url" href="https://secure.eloqua.com/apps/engage/index.aspx"> 
