@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
 <Module>
-  <ModulePrefs height="100" title="Navigation">
+  <ModulePrefs height="500" title="Navigation">
     <Require feature="views" /> 
   </ModulePrefs>
   <Content type="html" view="home">
