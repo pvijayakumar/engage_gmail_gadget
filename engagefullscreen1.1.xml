@@ -20,7 +20,7 @@
   </Content> 
   <Content view="canvas,profile,default" type="url" href="https://secure.eloqua.com/apps/engage/index.aspx"> 
   <![CDATA[ 
-  <iframe id="engage_frame" name="engage_frame" src="https://secure.eloqua.com/apps/engage/index.aspx" height="300" width="100%" border="0" frameBorder="0" scrolling="auto" style="margin: 0; padding:0; border: 0;"></iframe>
+  <iframe id="engage_frame" name="engage_frame" src="https://secure.eloqua.com/apps/engage/index.aspx" height="600" width="100%" border="0" frameBorder="0" scrolling="auto" style="margin: 0; padding:0; border: 0;"></iframe>
     <script type="text/javascript"> 
     function goToView(dest) { 
       var supported_views = gadgets.views.getSupportedViews(); 
